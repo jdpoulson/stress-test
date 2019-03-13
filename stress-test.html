@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress-test">
+        <div class="form-group">
+          <p>One day, I have listed the following warning signs affected by stress:</p>
+          <input type="checkbox" name="warning-sign" value="loss-of-sleep">No sleep.<br>
+          <input type="checkbox" name="warning-sign" value="inaddict">So much video games.<br>
+          <input type="checkbox" name="warning-sign" value="feeling-overwhelmed">Overwhelmed.<br>
+          <input type="checkbox" name="warning-sign" value="stimming">Acting like a character.<br>
+          <input type="checkbox" name="warning-sign" value="loss-of-weight">Less exercise.<br>
+          <input type="checkbox" name="warning-sign" value="bad-nutrition">Junk food.<br>
+        </div>
+        <div class="form-group">
+          <p>One day, I have listed the following health symptoms linked to high-stress:</p>
+          <input type="checkbox" name="health-symptom" value="high-blood-pressure">High blood pressure.<br>
+          <input type="checkbox" name="health-symptom" value="anxiety">Anxiety.<br>
+          <input type="checkbox" name="health-symptom" value="loss-of-sleep">Less sleep.<br>
+          <input type="checkbox" name="health-symptom" value="stinky">No shower.<br>
+          <input type="checkbox" name="health-symptom" value="autism">Having autism.<br>
+          <input type="checkbox" name="health-symptom" value="bad-nutrition">Eating junk food.<br>
+        </div>
+        <div class="form-group">
+          <p>One day, I have listed the recommended coping methods to deal with stress:</p>
+          <input type="checkbox" name="coping-method" value="meditation">Meditate.<br>
+          <input type="checkbox" name="coping-method" value="time-management">Manage your time.<br>
+          <input type="checkbox" name="coping-method" value="cat-petting">Pet a cat.<br>
+          <input type="checkbox" name="coping-method" value="workout">More exercise.<br>
+          <input type="checkbox" name="coping-method" value="sleeping">More sleep.<br>
+          <input type="checkbox" name="coping-method" value="healthy-nutrition">Eat healthy food.<br>
+        </div>
+        <button type="submit">Submit Test</button>
+      </form>
+
+      <div id="high-stress">
+        <p>-You are not doing well</p>
+        <p>-Resources</p>
+      </div>
+      <div id="low-stress">
+        <p>-You are doing alright</p>
+        <p>-Maybe meditate, more exercise, or healthy food</p>
+      </div>
+      <div id="no-stress">
+        <p>-You are doing awesome</p>
+      </div>
+    </div>
+  </body>
+</html>
