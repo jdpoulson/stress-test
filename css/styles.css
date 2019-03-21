@@ -10,12 +10,27 @@
 #high-stress {
   display: none;
   color: red;
+  padding: 30px;
+  margin: 20px;
+  border: 30px;
+  float: left;
+  font-size: 40px;
 }
 #low-stress {
   display: none;
   color: yellow;
+  padding: 30px;
+  margin: 20px;
+  border: 30px;
+  float: left;
+  font-size: 40px;
 }
 #no-stress {
   display: none;
   color: green;
+  padding: 30px;
+  margin: 20px;
+  border: 30px;
+  float: left;
+  font-size: 40px;
 }
